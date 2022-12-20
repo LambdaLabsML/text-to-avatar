@@ -1,7 +1,7 @@
 ---
 title: Avatar
-emoji: 🚹
-colorFrom: yellow
+emoji: 👽
+colorFrom: blue
 colorTo: pink
 sdk: gradio
 sdk_version: 3.5
