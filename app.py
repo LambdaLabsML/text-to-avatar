@@ -107,17 +107,17 @@ block = gr.Blocks(css=css)
 
 examples = [
     [
-        'Jeff Bezos, avatarart style person',
+        'Jeff Bezos, avatarart style',
         2,
         7.5,
     ],
     [
-        'Elon Musk, avatarart style person',
+        'Elon Musk, avatarart style',
         2,
         7.5,
     ],
     [
-        'Bill Gates, avatarart style person',
+        'Bill Gates, avatarart style',
         2,
         7,
     ],
