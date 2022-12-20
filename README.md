@@ -1,5 +1,5 @@
 ---
-title: Avatar
+title: 'Dreambooth Style: Avatar'
 emoji: 👽
 colorFrom: blue
 colorTo: pink
