@@ -107,17 +107,17 @@ block = gr.Blocks(css=css)
 
 examples = [
     [
-        'Yoda',
+        'Jeff Bezos, avatarart style person',
         2,
         7.5,
     ],
     [
-        'Abraham Lincoln',
+        'Elon Musk, avatarart style person',
         2,
         7.5,
     ],
     [
-        'George Washington',
+        'Bill Gates, avatarart style person',
         2,
         7,
     ],
@@ -128,16 +128,12 @@ with block:
         """
             <div style="text-align: center; max-width: 650px; margin: 0 auto;">
               <div>
-                <img class="logo" src="https://lambdalabs.com/static/images/lambda-logo.svg" alt="Lambda Logo"
+                <img class="logo" src="https://lambdalabs.com/hubfs/logos/lambda-logo.svg" alt="Lambda Logo"
                     style="margin: auto; max-width: 7rem;">
                 <h1 style="font-weight: 900; font-size: 3rem;">
-                  Naruto text to image
+                  Avatar text to image
                 </h1>
               </div>
-              <p style="margin-bottom: 10px; font-size: 94%">
-              Generate new Naruto anime character from a text description,
-                <a href="https://lambdalabs.com/blog/how-to-fine-tune-stable-diffusion-how-we-made-the-text-to-pokemon-model-at-lambda/">created by Lambda Labs</a>.
-              </p>
             </div>
         """
     )
@@ -185,9 +181,8 @@ with block:
                     </p>
                 </div>
                 <div class="acknowledgments">
-                    <p> Put in a text prompt and generate your own Naruto anime character, no "prompt engineering" required!
+                    <p> Put in a text prompt and generate your own Avatar art style image!
                     <p>If you want to find out how we made this model read about it in <a href="https://lambdalabs.com/blog/how-to-fine-tune-stable-diffusion-how-we-made-the-text-to-pokemon-model-at-lambda/">this blog post</a>.
-                    <p>And if you want to train your own Stable Diffusion variants, see our <a href="https://github.com/LambdaLabsML/examples/tree/main/stable-diffusion-finetuning">Examples Repo</a>!
                     <p>Trained by Eole Cervenka at <a href="https://lambdalabs.com/">Lambda Labs</a>.</p>
                </div>
            """
