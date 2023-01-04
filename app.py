@@ -182,7 +182,6 @@ with block:
                 </div>
                 <div class="acknowledgments">
                     <p> Put in a text prompt and generate your own Avatar art style image!
-                    <p>If you want to find out how we made this model read about it in <a href="https://lambdalabs.com/blog/how-to-fine-tune-stable-diffusion-how-we-made-the-text-to-pokemon-model-at-lambda/">this blog post</a>.
                     <p>Trained by Eole Cervenka at <a href="https://lambdalabs.com/">Lambda Labs</a>.</p>
                </div>
            """
