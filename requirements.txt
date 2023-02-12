@@ -1,8 +1,15 @@
 --extra-index-url https://download.pytorch.org/whl/cu116
 torch==1.12.1+cu116
-diffusers
-transformers
+diffusers==0.12.1
+transformers==4.26.1
 scipy
 ftfy
-datasets
+datasets[vision]==2.4.0
+gradio==3.5
 accelerate
+ray[serve]
+fastapi==0.88.0
+httpx==0.23.1
+starlette==0.22.0
+fsspec==2023.1.0
+protobuf==3.20.*
